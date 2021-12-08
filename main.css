@@ -48,16 +48,13 @@ a:hover, a:focus-visible {
     text-decoration: underline;
 }
 img {
-    width: 60%;
-    float: left;
-    margin-right: 8px;
-    margin-bottom: 16px;
+    width: 100%;
+    max-width: 350px;
+    margin: auto auto 16px auto;
+    display: block;
 }
 figcaption {
     color: #555;
-}
-.img-div + * {
-    clear: both;
 }
 p {
     margin: 16px auto;
@@ -81,4 +78,7 @@ h2 + p {
 }
 ::-webkit-scrollbar {
     width: 0;
+}
+figure {
+    margin: 0;
 }
